@@ -1,8 +1,14 @@
-body{
-  background: linear-gradient(to right, #F0DA9E, #EB671E, #06781F);
-}
+
 .logo{
   height: 10vh;
+}
+.business > h1{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #EB671E,
+  #AB492E, #06781F);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .navbar {
   overflow: hidden;
@@ -16,7 +22,7 @@ body{
 .navRight{
   float: inline-end;
   display: flex;
-  color: #f2f2f2;
+  /* color: black; */
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -26,5 +32,10 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
+}
+body{
+  /* background: linear-gradient(to right, #EB671E, #06781F); */
+  background-color: #F0DA9E;
+  color: black
 }
 
