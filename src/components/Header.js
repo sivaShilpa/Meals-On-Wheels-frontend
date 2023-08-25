@@ -4,40 +4,27 @@ import "../App.css"
 function Header(props) {
 
   return (
-    <header class="main_h">
-      <div class="row">
-        <div class="mobile-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+    <header>      
+      <nav className="navbar">
+        <div>
+          <Link to="/">
+            <div><img className="logo" src="https://i.imgur.com/CQgzHdV.jpg" alt="logo"></img></div>
+          </Link>
         </div>
-
-        <nav>
-            <Link to="/"><div><img className="logo" src="https://i.imgur.com/CQgzHdV.jpg" alt="logo"></img></div></Link>
-            <ul>                  
-                <Link to="/HowItWorks"><div>How It Works</div></Link>
-                <Link to="/Menu"><div>Menu</div></Link>                  
-            </ul>
-        </nav>
-
-      </div>
+        <div>
+          <h1>Meals On Wheels</h1>
+        </div>
+        <div className="navRight">
+          <Link to="/HowItWorks">
+            <div>How It Works</div>
+          </Link>
+          <Link to="/Menu">
+            <div>Menu</div>
+          </Link>
+          <button>Sign in/Sign up</button>
+        </div>       
+      </nav>
     </header>
-
-
-    // <header className="main_h">
-    //   <h1>Meals On Wheels</h1>
-    //   <nav className="navStyle">
-    //     <Link to="/">
-    //       <div><img className="logo" src="https://i.imgur.com/CQgzHdV.jpg" alt="logo"></img></div>
-    //     </Link>
-    //     <Link to="/HowItWorks">
-    //       <div>How It Works</div>
-    //     </Link>
-    //     <Link to="/Menu">
-    //       <div>Menu</div>
-    //     </Link>
-    //   </nav>
-    // </header>
   );
 }
   

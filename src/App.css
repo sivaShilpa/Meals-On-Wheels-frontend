@@ -1,14 +1,30 @@
-*{
-  background-color: #F0DA9E;
-}
-.navstyle{  
-    display: "flex";
-    justify-content: "space-around";
-    border: "3px solid black";
-    padding: "8px";
-    width: "90%";
-    margin: "auto"; 
+body{
+  background: linear-gradient(to right, #F0DA9E, #EB671E, #06781F);
 }
 .logo{
   height: 10vh;
 }
+.navbar {
+  overflow: hidden;
+  background-color: #F0DA9E;
+  display:flex;
+  height: 10vh;
+}
+.navMiddle{
+  float:none;
+}
+.navRight{
+  float: inline-end;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
