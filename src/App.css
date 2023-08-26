@@ -1,5 +1,7 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0;
+  transition: all .7s ease-in;
 }
 header{
   position: sticky;
@@ -8,8 +10,8 @@ header{
   background-color: #F0DA9E;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   height: 6vh;
-  transition: all .7s ease-in;
   padding: 0.5vh;
+  margin-left: 0;
 }
 .navbar > ul {
   list-style-type: none;
@@ -40,6 +42,7 @@ header{
   background: linear-gradient(to right, #EB671E 30%,#AB492E 40%, #06781F 90%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; 
+  background-clip: text;
 }
 .navRight{
   float: right;  
@@ -79,7 +82,7 @@ body{
   color: black;
 }
 .home{
-  margin: 50vh;
+  margin: 0 10vh 30vh 10vh;
 }
 footer{
   position: fixed;
