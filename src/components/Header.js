@@ -1,30 +1,37 @@
-import { Link } from "react-router-dom";
+
 import "../App.css"
 
-function Header(props) {
-
+function Header(props) {  
   return (
     <header>      
       <nav className="navbar">
-        <div>
-          <Link to="/">
-            <div><img className="logo" src="https://i.imgur.com/CQgzHdV.jpg" alt="logo"></img></div>
-          </Link>
-        </div>
-        <div className="business">
-          <h1>Meals On Wheels</h1>
-        </div>
-        <div className="navRight">
-          <Link to="/HowItWorks">
-            <div>How It Works</div>
-          </Link>
-          <Link to="/Menu">
-            <div>Menu</div>
-          </Link>
-          <button>Sign in/Sign up</button>
-        </div>       
+        <ul>
+          <li className="navRight">
+            <div>
+              <a href="/HowItWorks">
+                How It Works
+              </a>
+            </div>
+            <div>
+              <a href="/Menu">
+                Menu
+              </a>
+            </div>
+            <div>
+              <button><a className="signup" href="/signup">Sign in / Sign up</a></button>  
+            </div>            
+          </li>
+          <li className="logo">            
+            <a href="/">
+              <img src="https://i.imgur.com/CQgzHdV.jpg" alt="logo"></img>
+            </a>            
+          </li>
+          <li className="business">            
+            <h1>Meals On Wheels</h1>            
+          </li>
+        </ul>            
       </nav>
-    </header>
+    </header> 
   );
 }
   

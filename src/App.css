@@ -1,32 +1,111 @@
-
-.logo{
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.navbar{
+  height: 10vh;
+  min-height: 6vh;
+  /* box-sizing: border-box; */
+  background-color: #F0DA9E;
+  transition: all .7s ease-in;
+}
+.navbar > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar > ul > li{
+  justify-content: space-around;
+}
+.logo {
+  float: left;
+}
+.logo > a > img{
   height: 10vh;
 }
 .business > h1{
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, #EB671E,
-  #AB492E, #06781F);
+  font-size: 5vh;
+  font-weight: 1000;  
+  text-align: center;
+  float: none;
+  padding-top: 0;
+  margin-top: 1vh;
+  background: linear-gradient(to right, #EB671E 30%,#AB492E 40%, #06781F 90%);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; 
+}
+.navRight{
+  float: right;  
+  display: flex;  
+  padding-top: 4vh;
+}
+.navRight > div{ 
+  padding-left: 2vh;
+}
+.navRight > div > a{
+  text-decoration: none;
+  font-size: 2vh;
+  font-weight: 700;
+  color: #AB492E;
+}
+.navRight > div > button{
+  align-self: center;
+  background-color: #06781F;
+  border-radius: 2vh;
+  border: #06781F;
+  font-size: 1.5vh;
+  font-weight: 700;
+  height: 3vh;
+  width: 14vh;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.navRight > div > button:hover {  
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.signup{
+  color: #F0DA9E;
+  text-decoration: none;
+}
+body{
+  background-color: #F0DA9E;
+  color: black
+}
+/* nav > ul > li:hover{
+  background-color: #111;
+}
+.logo > div > a > div > img{
+  height: 10vh;
+  float: left;
+}
+.business > div > h1{
+  font-size: 50px;
+  font-weight: 1000;  
+  background: linear-gradient(to right, #EB671E,#AB492E, #06781F);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
 }
 .navbar {
   overflow: hidden;
   background-color: #F0DA9E;
   display:flex;
-  height: 10vh;
+  justify-content: space-around;
+  height: 15vh;
 }
 .navMiddle{
   float:none;
 }
 .navRight{
-  float: inline-end;
+  float: right;
   display: flex;
-  /* color: black; */
-  text-align: center;
   padding: 14px;
-  text-decoration: none;
-  
+  text-decoration: none;  
 }
 .sticky {
   position: fixed;
@@ -34,8 +113,10 @@
   width: 100%;
 }
 body{
-  /* background: linear-gradient(to right, #EB671E, #06781F); */
   background-color: #F0DA9E;
   color: black
 }
+*{
+  font-family: Arial, Helvetica, sans-serif;
+} */
 
