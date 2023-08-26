@@ -5,14 +5,11 @@ header{
   position: sticky;
   top: 0;
   width: 100%;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.navbar{
-  height: 10vh;
-  min-height: 6vh;
-  /* box-sizing: border-box; */
   background-color: #F0DA9E;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  height: 6vh;
   transition: all .7s ease-in;
+  padding: 0.5vh;
 }
 .navbar > ul {
   list-style-type: none;
@@ -25,17 +22,21 @@ header{
 }
 .logo {
   float: left;
+  
 }
 .logo > a > img{
-  height: 10vh;
+  height: 6vh;
+}
+.business{
+  top:0;
 }
 .business > h1{
   font-size: 5vh;
   font-weight: 1000;  
   text-align: center;
-  float: none;
+  align-self: center;
+  margin-top: 0;  
   padding-top: 0;
-  margin-top: 1vh;
   background: linear-gradient(to right, #EB671E 30%,#AB492E 40%, #06781F 90%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; 
@@ -43,7 +44,7 @@ header{
 .navRight{
   float: right;  
   display: flex;  
-  padding-top: 4vh;
+  padding-top: 2vh;
 }
 .navRight > div{ 
   padding-left: 2vh;
@@ -57,7 +58,7 @@ header{
 .navRight > div > button{
   align-self: center;
   background-color: #06781F;
-  border-radius: 2vh;
+  border-radius: 0.5vh;
   border: #06781F;
   font-size: 1.5vh;
   font-weight: 700;
@@ -75,48 +76,21 @@ header{
 }
 body{
   background-color: #F0DA9E;
-  color: black
-}
-/* nav > ul > li:hover{
-  background-color: #111;
-}
-.logo > div > a > div > img{
-  height: 10vh;
-  float: left;
-}
-.business > div > h1{
-  font-size: 50px;
-  font-weight: 1000;  
-  background: linear-gradient(to right, #EB671E,#AB492E, #06781F);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; 
-}
-.navbar {
-  overflow: hidden;
-  background-color: #F0DA9E;
-  display:flex;
-  justify-content: space-around;
-  height: 15vh;
-}
-.navMiddle{
-  float:none;
-}
-.navRight{
-  float: right;
+  color: black;
+  /* min-height: 100vh;
   display: flex;
-  padding: 14px;
-  text-decoration: none;  
+  flex-direction: column; */
 }
-.sticky {
+footer{
   position: fixed;
-  top: 0;
+  bottom:0;
   width: 100%;
+  height: 5vh;
+  background-color: #AB492E;
+  padding: 0;
+  box-shadow: 0 -3px 10px 3px rgba(0, 0, 0, 0.2);
+  
 }
-body{
-  background-color: #F0DA9E;
-  color: black
+footer > h1{
+  padding-top: 0;
 }
-*{
-  font-family: Arial, Helvetica, sans-serif;
-} */
-
