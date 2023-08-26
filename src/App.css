@@ -57,9 +57,9 @@ header{
 }
 .navRight > div > button{
   align-self: center;
-  background-color: #06781F;
+  background: linear-gradient(to right, #EB671E,#AB492E, #06781F);
   border-radius: 0.5vh;
-  border: #06781F;
+  border: none;
   font-size: 1.5vh;
   font-weight: 700;
   height: 3vh;
@@ -77,20 +77,23 @@ header{
 body{
   background-color: #F0DA9E;
   color: black;
-  /* min-height: 100vh;
-  display: flex;
-  flex-direction: column; */
+}
+.home{
+  margin: 50vh;
 }
 footer{
   position: fixed;
   bottom:0;
   width: 100%;
-  height: 5vh;
-  background-color: #AB492E;
-  padding: 0;
+  height: 3vh;
+  background: linear-gradient(to right, #EB671E,#AB492E, #06781F);
+  padding-top: 1vh;
   box-shadow: 0 -3px 10px 3px rgba(0, 0, 0, 0.2);
-  
+  color: #F0DA9E;
+  text-align: center;
+  margin: auto;
 }
-footer > h1{
-  padding-top: 0;
+footer > a{
+  color:#F0DA9E;
+  text-decoration: none;
 }

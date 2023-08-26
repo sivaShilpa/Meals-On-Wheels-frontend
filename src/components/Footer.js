@@ -1,9 +1,12 @@
+import "../App.css"
 function Footer(props) {
     return (
       <footer>
-        <h1>Footer goes here</h1>
-      </footer>
-    
+        <span>&copy; </span>
+        <a href="/" target="_blank" rel="noreferrer">Brian Triplett</a>
+        <span> and </span>
+        <a href="https://shilpasivarajan.netlify.app/" target="_blank" rel="noreferrer">Shilpa Sivarajan</a>
+      </footer>    
     );
   }
   
