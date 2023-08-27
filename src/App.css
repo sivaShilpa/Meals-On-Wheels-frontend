@@ -6,7 +6,7 @@
   transition: all .3s ease-in;
 }
 header{
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   background-color: #F0DA9E;
@@ -47,6 +47,12 @@ header{
   margin-top: 0;  
   padding-top: 0;
   background: linear-gradient(to right, #EB671E 30%,#AB492E 40%, #06781F 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
+  background-clip: text;
+}
+.business > h1:hover{
+  background: linear-gradient(to left, #EB671E 30%,#AB492E 40%, #06781F 90%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; 
   background-clip: text;
@@ -102,6 +108,17 @@ body{
 }
 .home{
   margin: 0 10vh 30vh 10vh;
+  text-align: center;
+}
+.homepagePic > img{
+  border-style: double;
+  border-radius: 2vh;
+  align-self: center;
+  width: 100%;
+  margin-top: 3vh;
+}
+.howItWorksHomePage{
+  color:#AB492E;
 }
 footer{
   position: fixed;
