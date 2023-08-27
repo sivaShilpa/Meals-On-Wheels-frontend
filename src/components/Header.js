@@ -1,25 +1,29 @@
 
 import "../App.css"
 
+
 function Header(props) {  
+  
   return (
     <header>      
       <nav className="navbar">
         <ul>
           <li className="navRight">
-            <div>
-              <a href="/HowItWorks">
-                How It Works
-              </a>
-            </div>
-            <div>
-              <a href="/Menu">
-                Menu
-              </a>
-            </div>
-            <div>
-              <button><a className="signup" href="/signup">Sign in / Sign up</a></button>  
-            </div>            
+            <ul>
+              <li className="howItWorks">              
+                <a href="/HowItWorks" >
+                  How It Works
+                </a>            
+              </li>
+              <li className="menu">
+                <a href="/Menu">
+                  Menu
+                </a>
+              </li>
+              <li className="signup">
+                <button><a className="signupLink" href="/signup">Sign in / Sign up</a></button>
+              </li>
+            </ul>               
           </li>
           <li className="logo">            
             <a href="/">
