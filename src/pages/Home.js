@@ -6,7 +6,7 @@ function Home(props) {
                 <img src="https://i.imgur.com/kqWeGjs.jpg" alt="homepagePic"></img>
         </div>
         <div className="howItWorksHomePage">
-                <div>
+                <div className="title">
                         <h1>How It Works</h1>
                 </div>
                 <div className="howItWorksSteps">
@@ -34,7 +34,7 @@ function Home(props) {
         </div>
         <div className="homePageLastDiv">
                 <div className="description">
-                        <div>Costumize Your Menu</div>
+                        <div>Customize Your Menu</div>
                         <div><h1>Meal Delivery For Any LifeStyle</h1></div>
                         <div><p>Choose a home meal delivery plan for your taste, or mix and match any of our weekly recipes</p></div>                        
                 </div>
