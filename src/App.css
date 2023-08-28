@@ -14,6 +14,7 @@ header{
   height: 6vh;
   padding: 0.5vh;
   margin-left: 0;
+  z-index: 10000
 }
 .navbar > ul {
   list-style-type: none;
@@ -26,10 +27,10 @@ header{
 }
 .logo {
   float: left;
-  
 }
 .logo > a > img{
   height: 6vh;
+  
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   overflow: visible;  
 }
@@ -38,6 +39,7 @@ header{
 }
 .business{
   top:0;
+  padding-left: 45vh;  
 }
 .business > h1{
   font-size: 5vh;
@@ -115,10 +117,85 @@ body{
   border-radius: 2vh;
   align-self: center;
   width: 100%;
-  margin-top: 3vh;
+  margin-top: 10vh;
 }
 .howItWorksHomePage{
+  margin-top: 2vh;
+  background-color:#EB671E;
+  color: #F0DA9E;
+  border-radius: 2vh;
+}
+.howItWorksHomePage > div > h1{
+  font-size: 4vh;
+}
+.howItWorksSteps{
+  display: flex;
+  padding: 10vh;
+  justify-content: space-around;  
+}
+.howItWorksSteps > div > img{
+  border-radius: 50%;
+  width:30vh; 
+  border-style: double; 
+}
+.stepNumContainer{
+  position:relative
+}
+.stepNum{
+  border-radius: 50%;
+  background-color:#06781F;
+  color: #F0DA9E;
+  font-size: 3vh;
+  font-weight: bold;
+  width:6vh;
+  height: 5vh;
+  padding-top:1vh ;
+  position: absolute;
+  top: 2vh;
+  left: 2vh;
+}
+.stepNumContainer > div > p{
+  font-size: 2vh;
+}
+.homePageLastDiv{
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+}
+.description{
+  text-align: left;
+  width: 30vh;
+  padding-left: 10vh;
+  padding-top: 15vh;
+  font-size: 2vh;
+}
+.description > div > h1{
   color:#AB492E;
+}
+.lifeStyleList{
+  padding-top: 1vh;
+  font-size: 3vh;
+  text-align: left;
+}
+.lifeStyleList > ul{
+  list-style-type: none;
+}
+
+.lifeStyleList>ul li::before{
+  content: ">";
+  color:#06781F; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+  margin-bottom: 3vh;
+}
+.allMeals{
+  float: right;
+}
+.allMeals > img{
+  border-style: double;
+  border-radius: 2vh;
 }
 footer{
   position: fixed;
@@ -131,11 +208,13 @@ footer{
   color: #F0DA9E;
   text-align: center;
   margin: auto;
+  font-size: 1.5vh;
+  z-index: 10000
 }
 footer > a{
   color:#F0DA9E;
   text-decoration: none;
 }
 footer > a:hover{
-  color:black;
+  color:#EB671E;
 }

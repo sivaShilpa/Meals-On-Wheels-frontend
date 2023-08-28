@@ -3,7 +3,8 @@ function Footer(props) {
     return (
       <footer>
         <span>&copy; </span>
-        <a href="/" target="_blank" rel="noreferrer">Brian Triplett</a>
+        This website is created by 
+        <a href="/" target="_blank" rel="noreferrer"> Brian Triplett</a>
         <span> and </span>
         <a href="https://shilpasivarajan.netlify.app/" target="_blank" rel="noreferrer">Shilpa Sivarajan</a>
       </footer>    
