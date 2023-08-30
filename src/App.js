@@ -16,8 +16,8 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/HowItWorks" element={<HowItWorks URL={URL} />} />
-        <Route path="/Menu" element={<Menu URL={URL} />} />
+        <Route exact path="/HowItWorks" element={<HowItWorks />} />
+        <Route exact path="/Menu" element={<Menu URL={URL} />} />
       </Routes>
       <Footer />
     </div>

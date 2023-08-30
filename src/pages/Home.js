@@ -12,7 +12,7 @@ function Home(props) {
                 <div className="howItWorksSteps">
                         <div className="stepNumContainer">
                                 <div className="stepNum">1</div>
-                                <img src="https://i.imgur.com/YSQ8AkC.jpg" alt="step 1" className="step1"></img>
+                                <img src="https://i.imgur.com/YSQ8AkC.jpg" alt="step 1"></img>
                                 <div><p>Choose your meals and extras</p></div>
                         </div>
                         <div className="stepNumContainer">
