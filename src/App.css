@@ -340,9 +340,12 @@ body{
   font-size: 1.5vh;
 }
 .menuPage{
-  margin: 10vh;
+  margin: 10vh 15vh 5vh 15vh; 
+  text-align: center;
+}
+.eachMenu{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   gap: 2vh;
 }
 .menuDetails{
