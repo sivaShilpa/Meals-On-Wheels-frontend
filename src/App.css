@@ -339,6 +339,23 @@ body{
   left: 32.5vh;
   font-size: 1.5vh;
 }
+.menuPage{
+  margin: 10vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2vh;
+}
+.menuDetails{
+  background-color: #EB671E;
+  color:#F0DA9E;
+  width: 50vh;
+  height: 40vh;
+  border-radius: 2vh;
+  text-align: center;
+  margin: 1vh;
+  padding-top: 2vh;
+}
+
 footer{
   position: fixed;
   bottom:0;
