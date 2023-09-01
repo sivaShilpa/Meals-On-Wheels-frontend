@@ -20,8 +20,8 @@ function Header(props) {
                   Menu
                 </a>
               </li>
-              <li className="signup">
-                <button><a className="signupLink" href="/signup">Sign in / Sign up</a></button>
+              <li className="signin">
+                <button><a className="signinLink" href="/SignIn">Sign in</a></button>
               </li>
             </ul>               
           </li>
