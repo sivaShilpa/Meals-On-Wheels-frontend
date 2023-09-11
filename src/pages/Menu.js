@@ -34,8 +34,7 @@ function Menu(props) {
         {menu && menu.map((meal)=>(
           <div className="menuDetails">
              <h1 key={meal._id}>{meal.name}</h1>
-             <img src={meal.image} alt=""/>
-             <p>{meal.description}</p>
+             <img className="mealImage" src={meal.image} alt=""/>
           </div>
         ))}
       </div>

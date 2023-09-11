@@ -356,7 +356,15 @@ body{
   border-radius: 2vh;
   text-align: center;
   margin: 1vh;
-  padding-top: 2vh;
+  padding: 1vh;
+}
+.menuDetails > h1{
+  height: 7vh;
+}
+.mealImage{
+  width: 30vh;
+  height: 20vh;
+  border-radius: 1vh;
 }
 form{
   text-align: center;
