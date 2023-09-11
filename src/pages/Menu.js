@@ -3,9 +3,9 @@ import "../App.css"
 
 function Menu(props) {
   // create state to hold projects
-  const [isLoading, setIsLoading] = useState(true)
+  // const [isLoading, setIsLoading] = useState(true)
   const [menu, setMenu] = useState(null);
-  const BASE_URL = "/Menu";
+  const BASE_URL = "http://localhost:4000/Menu";
 
   //create function to make api call
   const getMenuData = async () => {
@@ -17,7 +17,7 @@ function Menu(props) {
           setMenu(allMeals)
         }
         
-        setIsLoading(false)
+        // setIsLoading(false)
       }catch(err){
           console.log(err)
       }   
