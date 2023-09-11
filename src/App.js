@@ -11,7 +11,7 @@ import SignInForm from './pages/SignInForm';
 import Form from './pages/SignUpForm'
 
 function App() {
-  const URL = "http://localhost:4000/";
+  const URL = "http://localhost:4000/Menu";
 
   return (
     <div className="App">

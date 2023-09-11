@@ -404,9 +404,11 @@ table {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .messages{
-  padding-top: 15vh;
+  padding-top: 5vh;
   color:#AB492E; 
-  font-size: 5vh;
+  font-size: 2vh;
+  text-align: center;
+  height: 3vh;
 }
 .signUpLink{
   color: #F0DA9E;
