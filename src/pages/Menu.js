@@ -39,11 +39,36 @@ function Menu(props) {
               <span class="line line3"></span>
             </div>  
           <div class="menu-items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">blogs</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">contact</a></li>
+            <li>
+              <h4>Cuisine</h4>              
+              <div className="cuisineList">
+                <select>
+                  <option value="all">All</option>
+                  <option value="african">African</option>
+                  <option value="american">American</option>
+                  <option value="asian">Asian</option>
+                  <option value="canadian">Canadian</option>
+                  <option value="egyptian">Egyptian</option>
+                  <option value="european">European</option>
+                  <option value="filipino">Filipino</option>
+                  <option value="french">French</option>
+                  <option value="german">German</option>
+                  <option value="guyanese">Guyanese</option>
+                  <option value="hungarian">Hungarian</option>
+                  <option value="indian">Indian</option>
+                  <option value="irish">Irish</option>
+                  <option value="italian">Italian</option>
+                  <option value="jewish">Jewish</option>
+                  <option value="mexican">Mexican</option>
+                  <option value="moroccan">Moroccan</option>
+                  <option value="pakistani">Pakistani</option>
+                  <option value="spanish">Spanish</option>
+                </select>
+              </div>
+            </li>
+            <li><h4>LifeStyle</h4></li>
+            <li><h4>Course</h4></li>
+            <li><h4>Time Of Meal</h4></li>
           </div>
         </div>
       </div>
