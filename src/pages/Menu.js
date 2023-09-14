@@ -30,7 +30,7 @@ function Menu(props) {
   // define a function that will return the JSX needed once we get the data
    return (
     <div className="menuPage">
-       <div class="navbar">
+       <div class="menunavbar">
         <div class="container nav-container">
             <input class="checkbox" type="checkbox" name="" id="" />
             <div class="hamburger-lines">
