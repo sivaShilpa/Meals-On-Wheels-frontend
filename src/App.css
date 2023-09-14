@@ -474,7 +474,7 @@ body{
   transform: rotate(-45deg);
   background-color: #F0DA9E;
 }
-.cuisineList > select{
+select{
   height: 3vh;
   border-radius: 1vh;
 }

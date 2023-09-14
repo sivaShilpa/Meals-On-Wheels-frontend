@@ -66,9 +66,51 @@ function Menu(props) {
                 </select>
               </div>
             </li>
-            <li><h4>LifeStyle</h4></li>
-            <li><h4>Course</h4></li>
-            <li><h4>Time Of Meal</h4></li>
+            <li>
+              <h4>LifeStyle</h4>
+              <div>
+                <select>
+                    <option value="all">All</option>
+                    <option value="adult">Adult</option>
+                    <option value="carb-consious">Carb-Conscious</option>
+                    <option value="diabetesFriendly">Diabetes friendly</option>
+                    <option value="gluten-freeFriendly">Gluten-free friendly</option>
+                    <option value="mediterannean">Mediterannean</option>
+                    <option value="non-vegetarian">Non-vegetarian</option>
+                    <option value="pescatarian">Pescatarian</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="vegetarian">Vegetarian</option>
+                </select>
+              </div>              
+            </li>
+            <li>
+              <h4>Course</h4>
+              <div>
+                <select>
+                  <option value="all">All</option>
+                  <option value="adult">Adult</option>
+                  <option value="appetizer">Appetizer</option>
+                  <option value="beverage">Beverage</option>
+                  <option value="condiment">Condiment</option>
+                  <option value="Dessert">dessert</option>
+                  <option value="entree">Entree</option>
+                  <option value="side">Side</option>                  
+                </select>
+              </div>
+            </li>
+            <li>
+              <h4>Time Of Meal</h4>
+              <div>
+                <select>
+                  <option value="all">All</option>
+                  <option value="breakfast">Breakfast</option>
+                  <option value="lunch">Lunch</option>
+                  <option value="dinner">Dinner</option>
+                  <option value="snack">Snack</option>
+                  
+                </select>
+              </div>
+            </li>
           </div>
         </div>
       </div>
