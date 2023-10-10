@@ -1,7 +1,7 @@
 import './App.css';
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/SignIn" element={<SignInForm />} />
           <Route exact path="/SignUp" element={<Form />} />
         </Routes>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

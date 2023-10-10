@@ -54,8 +54,7 @@ function Home(props) {
                 </div>
                 <div className="allMeals">
                         <img src="https://i.imgur.com/TFoOWuW.jpg" alt="meals from all around the world"></img>
-                </div>
-                
+                </div>                
         </div>
       </div>);
   }

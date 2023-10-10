@@ -5,104 +5,7 @@
   margin-left: 0;
   transition: all .3s ease-in;
 }
-header{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #F0DA9E;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 6vh;
-  padding: 0.5vh;
-  margin-left: 0;
-  z-index: 10000
-}
-.navbar > ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.navbar > ul > li{
-  justify-content: space-around;
-}
-.logo {
-  float: left;
-}
-.logo > a > img{
-  height: 6vh;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  overflow: visible;  
-}
-.logo > a > img:hover{
-  box-shadow: none;
-}
-.business{
-  top:0;
-  padding-left: 45vh;  
-}
-.business > h1{
-  font-size: 5vh;
-  font-weight: bolder;  
-  text-align: center;
-  align-self: center;
-  margin-top: 0;  
-  padding-top: 0;
-  background: linear-gradient(to right, #EB671E 30%,#AB492E 40%, #06781F 90%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; 
-  background-clip: text;
-}
-.business > h1:hover{
-  background: linear-gradient(to left, #EB671E 30%,#AB492E 40%, #06781F 90%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; 
-  background-clip: text;
-}
-.navRight > ul{
-  float: right;  
-  display: flex;  
-  margin-right: 1vh;
-  list-style-type: none;
-  overflow: visible;
-}
-.navRight >ul> li{ 
-  padding-left: 2vh;
-}
-.howItWorks, .menu{
-  margin-top: 2vh;
-}
-.howItWorks > a, .menu > a{
-  text-decoration: none;
-  font-size: 2vh;
-  font-weight: 700;
-  color: #AB492E;
-}
-.howItWorks > a:hover, .menu > a:hover{
-  color:#06781F;
-}
-.signin{
-  margin-top: 1vh;
-}
-.signin > button{
-  background: linear-gradient(to right, #EB671E,#AB492E, #06781F);
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  border-radius: 1vh;
-  border: none;
-  font-size: 2vh;
-  font-weight: 700;
-  height: 4vh;
-  width: 14vh;
-  cursor: pointer;
-}
 
-.signin > button:hover {  
-  background: linear-gradient(to left, #EB671E,#AB492E, #06781F);
-  box-shadow: none;
-}
-.signinLink{
-  color: #F0DA9E;
-  text-decoration: none;  
-}
 body{
   background-color: #F0DA9E;
   color: black;
@@ -350,6 +253,7 @@ body{
 }
 .menuDetails{
   background-color: #EB671E;
+  text-decoration: none;
   color:#F0DA9E;
   width: 50vh;
   height: 40vh;

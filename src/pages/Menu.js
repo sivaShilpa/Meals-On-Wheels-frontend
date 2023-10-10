@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import "../App.css"
+import { Link } from "react-router-dom";
+
 
 function Menu(props) {
   // create state to hold projects
@@ -9,19 +11,15 @@ function Menu(props) {
 
   //create function to make api call
   const getMenuData = async () => {
-
       try {
         const response = await fetch(BASE_URL)
         const allMeals = await response.json()
         if(response.ok){
           setMenu(allMeals)
-        }
-        
-        // setIsLoading(false)
+        }        
       }catch(err){
           console.log(err)
-      }   
-
+      }
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
@@ -116,10 +114,10 @@ function Menu(props) {
       </div>
       <div className="eachMenu">
         {menu && menu.map((meal)=>(
-          <div className="menuDetails">
+          <Link className="menuDetails" to={`${meal._id}/details`}>
              <h1 key={meal._id}>{meal.name}</h1>
              <img className="mealImage" src={meal.image} alt=""/>
-          </div>
+          </Link>
         ))}
       </div>
     </div>);

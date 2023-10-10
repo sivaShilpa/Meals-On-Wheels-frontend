@@ -24,8 +24,8 @@ function HowItWorks(props) {
           <p>Paleo, Vegetarian and everything in between. Our weekly menu fits your lifestyle and preferences.</p>
           <div className="listOfLs">
             <div className="L-item">
-              <h3>PALEO</h3>
-              <p>High in protein. No dairy, gluten, grains, soy, or corn.</p>
+              <h3>NON-VEGETARIAN</h3>
+              <p>High in protein and responsibly sourced meats.</p>
             </div>
             <div className="L-item">
               <h3>CARB-CONSCIOUS</h3>
@@ -52,12 +52,12 @@ function HowItWorks(props) {
               <p>Whole grains, good fats, wild-caught seafood and responsibly sourced meats.</p>
             </div>
             <div className="L-item">
-              <h3>KETO-FRIENDLY</h3>
-              <p>High in protein and feel-good fats, low in carbs.</p>
+              <h3>VEGAN</h3>
+              <p>Vegetables without any meat, seafood, dairy or honey.</p>
             </div>
             <div className="L-item">
-              <h3>FRESH & READY</h3>
-              <p>No prep, just heat & eat. Dinner done in minutes.</p>
+              <h3>ADULT</h3>
+              <p>Beverages with alcohol in it.</p>
             </div>
           </div>
         </div>
